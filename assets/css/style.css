@@ -66,7 +66,7 @@ h3{
     border-width: 0.2rem;
 }
 
-section{
+section, .img-contact{
     margin: 1.5rem;
 }
 
@@ -107,7 +107,7 @@ div h4{
     font-size: 1.2rem;
     position: relative;
     left: 15rem;
-    top: -16rem;
+    top: -17rem;
 }
 
 .contact p{
