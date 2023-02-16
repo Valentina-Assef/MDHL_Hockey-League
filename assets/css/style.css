@@ -5,9 +5,7 @@
 }
 
 body{
-    width: 100vw;
     margin: 2rem;
-    background: rgb(2,0,36);
     background: linear-gradient(32deg, rgba(2,0,36,1) 0%, rgba(3,3,33,1) 48%, rgba(7,100,119,1) 100%);
     color: white;
     font-family: cursive;
@@ -127,12 +125,8 @@ h3{
 }
 
 table{
-    /*border-color: rgb(245, 245, 47);*/
     margin-top: 2rem;
     margin-bottom: 2rem;
-    /*border-style: double;
-    
-    border-radius: 3rem;*/
     padding: 0.5rem;
     text-align: center;
     background-color: #5ba39bc0;
@@ -198,3 +192,62 @@ li{
     text-align: center;
 }
 
+.main-form{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    width: 60vw;
+    align-self: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-radius: 1rem 1rem 0 0;
+    border-color: white;
+    padding: 0.5rem;
+}
+
+form{
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-top: 0.5rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-radius: 0 0 1rem 1rem;
+    border-color: white;
+    padding: 0.2rem 2.5rem 2.5rem 2.5rem;
+}
+
+fieldset{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+input{
+   margin-left: 0.5rem;
+}
+
+.sign{
+    margin-top: 1.5rem;
+}
+
+.submit{
+    align-self: center;
+    color: white;
+    font-family: cursive;
+    font-size: 1rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-radius: 0.5rem;
+    border-color: white;
+    padding: 0.75rem;
+    margin-top: 1.2rem;
+    background: linear-gradient(32deg, rgba(2,0,36,1) 0%, rgba(3,3,33,1) 48%, rgba(7,100,119,1) 100%)
+}

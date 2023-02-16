@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./game_info.html">Information</a>
+            <a href="./rules.html">Rules & Policies</a>
+            <a href="#">Registration</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header> 
+    <main>
+        <section class="main-form">
+            <h2>Registration Form</h2>
+            <form action="./show_data.html" method="get">
+                <fieldset>
+                    <p><label>Player’s First Name:</label>
+                        <input type="text" name="first_name"></p>
+                    <p><label for="last_name">Last Name:</label>
+                        <input type="text" name="last_name" id="last_name"></p>
+                    <p><label>Street Address:</label>
+                        <input type="text" name="address"></p>
+                    <p><label>City:</label>
+                        <input type="text" name="city"></p>
+                    <p><label>Zip Code:</label>
+                        <input type="number" name="zip_code" min="0"></p>
+                    <p><label>Birth Date:</label>
+                        <input type="date" name="birth_date"></p>
+                    <p><label>Parent/Guardian:</label>
+                        <input type="text" name="guardian"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Which elementary school do you live near?</legend>
+                    <p><label>Closest School:</label>
+                        <select id="school" name="school">
+                            <option value="">Please choose an option</option>
+                            <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                        </select></p>
+                </fieldset>
+                <fieldset>
+                    <legend>What position(s) do you normally play? (check all that apply)</legend>
+                        <p><input type="checkbox" id="position1" name="position1" value="Forward">
+                        <label for="position1">Forward</label></p>
+                        <p><input type="checkbox" id="position2" name="position2" value="Defense">
+                        <label for="position2">Defense</label></p>
+                        <p><input type="checkbox" id="position3" name="position3" value="Midfield">
+                        <label for="position3">Midfield</label></p>
+                        <p><input type="checkbox" id="position4" name="position4" value="Goalkeeper">
+                        <label for="position4">Goalkeeper</label></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Uniform Size</legend> 
+                        <p><input type="radio" id="youth_small" name="uniform_size" value="Youth Small">
+                        <label for="youth_small">Youth Small</label></p>
+                        <p><input type="radio" id="youth_medium" name="uniform_size" value="Youth Medium">
+                        <label for="youth_medium">Youth Medium</label></p>
+                        <p><input type="radio" id="youth_large" name="uniform_size" value="Youth Large">
+                        <label for="youth_large">Youth Large</label></p>
+                        <p><input type="radio" id="small" name="uniform_size" value="Small">
+                        <label for="small">Small</label></p>
+                        <p><input type="radio" id="medium" name="uniform_size" value="Medium">
+                        <label for="medium">Medium</label></p>
+                        <p><input type="radio" id="large" name="uniform_size" value="Large">
+                        <label for="large">Large</label></p>
+                        <p><input type="radio" id="extra_large" name="uniform_size" value="Extra Large">
+                        <label for="extra_large">Extra Large</label></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Permission to Play</legend>
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the 
+                        Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration 
+                        for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise 
+                        indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, 
+                        against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported 
+                        to or from MDHL sponsored activities, wich transportation.</p>
+                    <p>By entering your name below, I hereby agree and authorize the above. In addition, by signing below, also acknowledge that I have read the 
+                        cancellation policy and agree to its terms.</p>
+                    <p class="sign"><label>Parent/Guardian Signature:</label>
+                        <input type="text" name="signature"></p>
+                    <p><label>Date:</label>
+                        <input type="date" name="date_signature"></p>
+                </fieldset>   
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
