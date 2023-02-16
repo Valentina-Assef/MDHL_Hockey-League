@@ -26,26 +26,26 @@
             <h2>Registration Form</h2>
             <form action="./show_data.html" method="get">
                 <fieldset>
-                    <p><label>Player’s First Name:</label>
-                        <input type="text" name="first_name"></p>
+                    <p><label for="first_name">Player’s First Name:</label>
+                    <input type="text" name="first_name" id="first_name"></p>
                     <p><label for="last_name">Last Name:</label>
-                        <input type="text" name="last_name" id="last_name"></p>
-                    <p><label>Street Address:</label>
-                        <input type="text" name="address"></p>
-                    <p><label>City:</label>
-                        <input type="text" name="city"></p>
-                    <p><label>Zip Code:</label>
-                        <input type="number" name="zip_code" min="0"></p>
-                    <p><label>Birth Date:</label>
-                        <input type="date" name="birth_date"></p>
-                    <p><label>Parent/Guardian:</label>
-                        <input type="text" name="guardian"></p>
+                    <input type="text" name="last_name" id="last_name"></p>
+                    <p><label for="address">Street Address:</label>
+                    <input type="text" name="address" id="address"></p>
+                    <p><label for="city">City:</label>
+                    <input type="text" name="city" id="city"></p>
+                    <p><label for="code">Zip Code:</label>
+                    <input type="number" name="zip_code" min="0" id="code"></p>
+                    <p><label for="birth_date">Birth Date:</label>
+                    <input type="date" name="birth_date" id="birth_date"></p>
+                    <p><label for="parent">Parent/Guardian:</label>
+                    <input type="text" name="parent" id="parent"></p>
                 </fieldset>
                 <fieldset>
                     <legend>Which elementary school do you live near?</legend>
-                    <p><label>Closest School:</label>
+                    <p><label for="school">Closest School:</label>
                         <select id="school" name="school">
-                            <option value="">Please choose an option</option>
+                            <option disabled selected>Please choose an option</option>
                             <option value="AJ Katzenmaier">AJ Katzenmaier</option>
                             <option value="Greenbay">Greenbay</option>
                             <option value="Howard A Yeager">Howard A Yeager</option>
